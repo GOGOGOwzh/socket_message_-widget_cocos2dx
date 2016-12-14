@@ -32,8 +32,8 @@ void GameSceneManager::initScene()
     this->setMainLayer(Layer::create());
     this->getMainScene()->addChild(this->getMainLayer());
     
- //   this->changeToClickStartLayer();
-    this->changeToChoosePhLayer("2");
+    this->changeToClickStartLayer();
+  //  this->changeToChoosePhLayer("2");
 }
 
 void GameSceneManager::addListener()
